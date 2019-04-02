@@ -31,7 +31,7 @@ export default class Clock extends React.Component{
 
 
         return(
-            <div>
+            <div className="clock-container">
                 <h1>Clock</h1>
                <div className='clock'>
                     <p>
