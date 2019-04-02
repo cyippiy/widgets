@@ -7,15 +7,29 @@ html, body, h1, p {
   text-decoration: inherit;
   color: inherit;
   background: transparent;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.widgets-container{
+    display:flex;
 }
 
 .clock-container{
-    display: flex;
+    align-content: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    /* padding-top: 50px; */
+    align-items: center;
 }
 
 .clock{
-    background-color: darkcyan;
     border-radius: 1px solid black;
     padding: 5px;
     color: white;
+    background-color: darkcyan;
+}
+
+.clock-container h1{
+    color: black;
+    font-weight: bold;
 }
